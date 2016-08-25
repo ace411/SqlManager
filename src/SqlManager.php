@@ -43,6 +43,8 @@ class SqlManager
 
 				case 'sqlite':
 					$this->db_type = 'sqlite';
+					$this->username = $params['db_user'];
+					$this->password = $params['db_pass'];
 					$this->db_details = $params['file'];
 					$this->conn_stmt = "sqlite:{$this->db_details}";
 					break;
