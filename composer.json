@@ -1,0 +1,21 @@
+{
+    "name": "chemem/sqlmanager",
+    "description": "Simple PDO connection class for PHP",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Lochemem Bruno Michael",
+            "email": "lochbm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SqlManager\\" : "src"
+        }
+    }
+}
