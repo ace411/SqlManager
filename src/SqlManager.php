@@ -6,6 +6,7 @@
  *
  * @package SqlManager
  * @author Lochemem Bruno Michael
+ * @link https://github.com/ace411/SqlManager
  * 
  */
 
